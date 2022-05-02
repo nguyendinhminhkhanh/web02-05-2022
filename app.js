@@ -13,19 +13,16 @@ const body_video2 = document.querySelector('.body_video2')
 const body_video3 = document.querySelector('.body_video3')
 
 number1.addEventListener('click',function(){
-    style_number.classList.remove('open')
     body_video1.classList.add('open')
     body_video2.classList.remove('open')
     body_video3.classList.remove('open')
 });
 number2.addEventListener('click',function(){
-    style_number.classList.remove('open')
     body_video2.classList.add('open')
     body_video1.classList.remove('open')
     body_video3.classList.remove('open')
 });
 number3.addEventListener('click',function(){
-    style_number.classList.remove('open')
     body_video3.classList.add('open')
     body_video2.classList.remove('open')
     body_video1.classList.remove('open')
