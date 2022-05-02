@@ -35,7 +35,9 @@
 }
 
 .body_video{
-    display: flexbox;
+    display: inline-flexbox;
+    position: absolute;
+    left: -50%;
     justify-content: center;
     align-items: center;
     transform: scale(0.5,0.5);
