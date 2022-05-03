@@ -81,7 +81,9 @@
 }
 
 .number:hover{
-    border: 1px solid rgb(42, 158, 94);
-    opacity: 0.7;
-    
+    border: 1px solid rgb(0, 0, 0);
+    background: #fff;
+    color: black;
+    font-weight: 900;
+    transition: 0.5s;
 }
